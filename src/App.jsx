@@ -1,7 +1,9 @@
 import { BrowserRouter as Router } from "react-router-dom"
 
-function App() {
+import { supabase } from "./client";
 
+function App() {
+  console.log(supabase);
   return (
     <Router>
       <div>
